@@ -17,8 +17,8 @@
 #include "freertos/semphr.h"
 
 // NimBLE headers
-#include "ble_gap.h"
-#include "ble_hs.h"
+#include "host/ble_gap.h"
+#include "host/ble_hs.h"
 #include "nimble/ble.h"
 #include "nimble/nimble_port.h"
 #include "nimble/nimble_port_freertos.h"
