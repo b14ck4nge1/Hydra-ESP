@@ -23,4 +23,6 @@ idf_component_register(
         "utils"
         "wifi"
         "../components"
+    REQUIRES
+        ESP32-NimBLE-Keyboard
 )
