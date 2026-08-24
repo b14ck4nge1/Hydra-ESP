@@ -23,6 +23,22 @@ idf_component_register(
         "utils"
         "wifi"
         "../components"
+        "../components/webserver/interface"
     REQUIRES
         ESP32-NimBLE-Keyboard
+    PRIV_REQUIRES
+        bt
+        driver
+        esp_event
+        esp_http_server
+        esp_netif
+        esp_timer
+        esp_wifi
+        frame_analyzer
+        hccapx_serializer
+        nvs_flash
+        pcap_serializer
+        u8g2-hal-esp-idf
+        wifi_controller
+        wsl_bypasser
 )
