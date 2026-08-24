@@ -32,10 +32,6 @@ jobs:
           echo "=== partitions.csv ==="
           cat partitions.csv
 
-          echo "=== Generated partition table ==="
-          python /opt/esp/idf/components/partition_table/gen_esp32part.py \
-            build/partition_table/partition-table.bin
-
       - name: Show flash command
         run: |
           echo "=== Flash args ==="
